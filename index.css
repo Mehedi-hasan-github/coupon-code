@@ -22,6 +22,7 @@ main {
 }
 
 .with-coupon {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,6 +31,16 @@ main {
   border: 1px solid crimson;
   height: 200px;
   padding: 20px;
+}
+#counter-with-coupon {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: 0px;
+  padding: 0px 6px;
+  border-radius: 1px 0px 0px 10px;
+  background-color: crimson;
+  color: white;
 }
 
 .without-coupon {
